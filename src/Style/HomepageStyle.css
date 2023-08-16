@@ -1,0 +1,61 @@
+.bg {
+    background-image: url("https://lezada.jamstacktemplates.dev/assets/images/hero-slider/hero-slider-two/3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    width: inherit;
+}
+
+.imgStyle{
+    height: 550px;
+    width: 440px;
+    margin-top: 50px
+}
+.zoom {
+    transition: transform .3s;
+    /* background-color: aqua; */
+}
+
+.zoom:hover {
+    -ms-transform: scale(1);
+    /* IE 9 */
+    -webkit-transform: scale(1);
+    /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
+.imgtxt {
+    font-size: 20px;
+    text-align: center;
+    margin-right: 14%;
+}
+
+.headingsize {
+    font-size: 50px;
+}
+
+.headingsize1 {
+    font-size: 50px;
+    margin-right: 10%;
+}
+
+.btnstyle {
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    margin: 4px 2px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #333;
+
+}
+
+.imglist {
+    height: auto;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

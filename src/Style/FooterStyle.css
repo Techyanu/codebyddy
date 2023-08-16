@@ -1,0 +1,31 @@
+.dummy {
+    height: 100px;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: grey;
+}
+
+input:focus {
+    border-color: white;
+    /* outline: 1px solid grey; */
+}
+
+.footerites{
+    color: grey;
+}
+.fotterheading{
+    font-size: 15px;
+    text-align: center;
+}
+.sections{
+    text-align: left;
+}
+.liststyle{
+    list-style-type: none;
+    line-height: 40px;
+    font-size: 20px;
+
+}

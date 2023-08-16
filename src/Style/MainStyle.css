@@ -1,0 +1,34 @@
+.zoom {
+    transition: transform .3s;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1);
+    /* IE 9 */
+    -webkit-transform: scale(1);
+    /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
+.cart {
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+.imgstyle {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.price {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.rating {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+   
+}
